@@ -18,7 +18,7 @@ const HeroContent = () => {
           >
             <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
             <h1 className="Welcome-text text-[13px]">
-              Fullstack Developer Portfolio
+              Welcome to my Portfolio
             </h1>
           </motion.div>
 
@@ -27,19 +27,16 @@ const HeroContent = () => {
           className='flex flex-col gap-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto'
           >
             <span>
-            Providing
-            <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>  the best  </span>
-            project experience
+            Hi,
+            <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> I'm  </span>
+            Sasindu Nadeeshan
             </span>
           </motion.div>
 
           <motion.p
           variants={slideInFromLeft(0.8)}
           className='text-lg text-gray-400 my-5 max-w-[600px]'>
-            Im a fullstack developer with a passion for creating beautiful and
-            functional websites. I love to work with React, Next.js, and
-            Tailwind CSS. I also have experience with Node.js, Express, and
-            MongoDB.
+            I'm, a full-stack developer passionate about creating dynamic and user-friendly web applications. With expertise in both frontend and backend technologies, I bring ideas to life by combining creativity with solid technical skills. Let's build something incredible together!
           </motion.p>
           <motion.a
           variants={slideInFromLeft(1)}
