@@ -1,4 +1,3 @@
-"use client";
 import React from 'react';
 import { motion } from 'framer-motion';
 import { slideInFromLeft, slideInFromTop } from '@/utils/motion';
@@ -28,7 +27,7 @@ const HeroContent = () => {
         >
           <span>
             Hi,
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> I'm </span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> I&apos;m </span>
             Sasindu Nadeeshan
           </span>
         </motion.div>
@@ -37,7 +36,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I'm, a full-stack developer passionate about creating dynamic and user-friendly web applications. With expertise in both frontend and backend technologies, I bring ideas to life by combining creativity with solid technical skills. Let's build something incredible together!
+          I&apos;m, a full-stack developer passionate about creating dynamic and user-friendly web applications. With expertise in both frontend and backend technologies, I bring ideas to life by combining creativity with solid technical skills. Let&apos;s build something incredible together!
         </motion.p>
 
         <motion.a
